@@ -6,6 +6,12 @@
   padding: 3rem;
   border-radius: 1.5rem;
   box-shadow: rgba(149, 157, 165, 0.4) 0 8px 24px;
+  z-index: 111115;
+}
+
+.Header_fixed {
+  position: fixed;
+  width: 100%;
 }
 
 .Header-logo {

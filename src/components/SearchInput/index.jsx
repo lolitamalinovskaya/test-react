@@ -4,6 +4,7 @@ import "./index.css";
 
 const SearchInput = ({ onSearch }) => {
   const [value, setValue] = useState("");
+  console.log(onSearch);
 
   const onSearchChange = useCallback((e) => setValue(e.target.value), []);
   const onSubmit = useCallback(() => onSearch(value), [value, onSearch]);
